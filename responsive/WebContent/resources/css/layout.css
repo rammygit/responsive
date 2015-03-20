@@ -17,14 +17,17 @@ body {
 	width: 200px;
 	height: 900px;
 	overflow: hidden;
-	background: #EBEBEB;
-	padding: 0px 0px 15px 0px;
+	background: #EFEFEF;
+	padding: 0px 0px 15px 0px; 
+	font-family: "Open Sans", "Ubuntu Regular", "Segoe UI", Verdana,
+		Helvetica, Sans-Serif;
 }
 
 #mainContent {
 	margin: 0 0 0 200px;
 	padding: 0 20px 20px 20px;
-	background-image:url("http://cache.clickonf5.org/wp-content/uploads/2010/04/ubuntu_wallpaper_thumb.png");
+	/* background-image:url("http://cache.clickonf5.org/wp-content/uploads/2010/04/ubuntu_wallpaper_thumb.png"); */
+	background-image:url("../images/wood.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	height: 900px;

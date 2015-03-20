@@ -8,22 +8,24 @@
 
 .menu_simple ul li{
 	margin: 0px;
-	border-bottom: 1px dotted #767676;
+	border-bottom: 1px solid #E4E4E4;
+	
 }
 
 .menu_simple ul li a {
 	text-decoration: none;
-	color: #020202;
+	color: #4B5265;
 	padding: 20px 11px;
-	background-color: #EBEBEB;
+	background-color: #EFEFEF;
 	display: block;
+	font-size: 13px;
+	
 }
 
-.menu_simple ul li a:visited {
-	color: white;
-}
+
 
 .menu_simple ul li a:hover, .menu_simple ul li .current {
 	color: white;
 	background-color: #919191;
+	border-left: 7px solid #0079C2;
 }
