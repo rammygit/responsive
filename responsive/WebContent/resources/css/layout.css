@@ -1,0 +1,32 @@
+body {
+	overflow: hidden;
+	
+}
+
+#container {
+	width: 100%; /* full page width */
+	background: #FFFFFF;
+	text-align: left;
+	overflow: hidden;
+	padding: 0px;
+	height: 100%;
+}
+
+#sidebar {
+	float: left;
+	width: 200px;
+	height: 900px;
+	overflow: hidden;
+	background: #EBEBEB;
+	padding: 0px 0px 15px 0px;
+}
+
+#mainContent {
+	margin: 0 0 0 200px;
+	padding: 0 20px 20px 20px;
+	background-image:url("http://cache.clickonf5.org/wp-content/uploads/2010/04/ubuntu_wallpaper_thumb.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 900px;
+	width:100%;
+}

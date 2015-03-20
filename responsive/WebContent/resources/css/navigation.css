@@ -1,0 +1,94 @@
+#sidebar {
+	font-family: "Open Sans", "Ubuntu Regular", "Segoe UI", Verdana,
+		Helvetica, Sans-Serif;
+	position: absolute;
+	top: 0px;
+	width: 19em;
+	height: 100%;
+	border-right: 1px solid #B8B9BB;
+	background: #EFEFEF;
+}
+
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	width: 19em;
+}
+
+.nav-header {
+	padding: 0px 20px;
+	height: 54px;
+	border-bottom: 1px solid #D3D3D3 !important;
+	background-color: #E8E8E8;
+	color: #4B5265;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 50px;
+}
+
+.nav-header span {
+	display: inline-block;
+	margin-right: 5px;
+	padding-top: 2px;
+	height: 30px;
+	font-size: 26px;
+}
+
+.nav-header h4 {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	font-weight: 400;
+}
+
+#nav li {
+	border-top: 1px solid #F7F7F6;
+	border-bottom: 1px solid #E4E4E4;
+	list-style: none;
+}
+
+#nav li a {
+	display: block;
+	padding: 0px 20px;
+	height: 45px;
+	color: #4B5265;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 45px;
+}
+
+#nav li.active a {
+	padding: 0px 13px;
+	border-left: 7px solid #0079C2;
+	background-color: #F6F6F6;
+	color: #0079C2;
+}
+
+#nav li.active:first-child {
+	border-top: none !important;
+}
+
+#nav li a:hover {
+	color: #0079C2;
+}
+
+#nav li a span {
+	margin-right: 10px;
+}
+
+.nav-seperation {
+	display: block;
+	padding: 0;
+	height: 15px;
+	border-bottom: 1px solid #F7F7F6 !important;
+	background-color: #E8E8E8;
+}
+
+.after-seperation {
+	border-top: 1px solid #E4E4E4 !important;
+}
+
+.nav-last {
+	border-bottom: none !important;
+}

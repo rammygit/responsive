@@ -1,0 +1,29 @@
+.menu_simple ul {
+	margin: 0;
+	padding: 0;
+	padding-top: 40px;
+	width: 200px;
+	list-style-type: none;
+}
+
+.menu_simple ul li{
+	margin: 0px;
+	border-bottom: 1px dotted #767676;
+}
+
+.menu_simple ul li a {
+	text-decoration: none;
+	color: #020202;
+	padding: 20px 11px;
+	background-color: #EBEBEB;
+	display: block;
+}
+
+.menu_simple ul li a:visited {
+	color: white;
+}
+
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+	color: white;
+	background-color: #919191;
+}
