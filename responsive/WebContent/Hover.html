@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hover</title>
+<style>
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #1e2124;
+	background: linear-gradient(to bottom, #1e2124 0%, #595d66 100%);
+	font-family: Avenir, Helvetica, sans-serif;
+}
+
+.cntr {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.lnk {
+	text-decoration: none;
+	color: white;
+	padding-bottom: 5px;
+	border-bottom: 2px solid rgba(255, 255, 255, .1);
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	font-weight: 300;
+}
+
+.lnk:before {
+	
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	height: 2px;
+	width: 0%;
+	background: white;
+	 transition: all .3s ease;
+	
+}
+
+.lnk:hover:before {
+	width: 100%;
+	
+}
+</style>
+</head>
+<body>
+	<a class="lnk cntr" href="#" data-hover="Hover">hover</a>
+</body>
+</html>
