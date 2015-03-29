@@ -1,5 +1,6 @@
 body {
 	overflow: hidden;
+	
 }
 
 #container {
@@ -12,6 +13,11 @@ body {
 	background-image: url("../images/wood.jpg");
 	background-repeat: repeat-x;
 	background-size: cover;
+	/* background: #1e2124;
+	background: linear-gradient(to bottom, #1e2124 0%, #595d66 100%); */
+	font-family: Avenir, Helvetica, sans-serif;
+	
+   
 }
 
 #sidebar {
@@ -47,3 +53,19 @@ body {
 	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 	
 }
+
+
+.edgedDiv {
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #0079C2;
+    height: 500px;
+    width: 700px;
+    padding-top: 30px;
+    margin-top:50px;
+    margin-left:50px;
+}
+
+
+
