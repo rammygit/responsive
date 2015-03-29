@@ -5,6 +5,7 @@
 	width: 200px;
 	list-style-type: none;	
 	font-family: Avenir, Helvetica, sans-serif;
+	color: #ffffff;
 }
 
 .menu_simple ul li{
@@ -16,7 +17,7 @@
 	text-decoration: none;
 	/* color: #4B5265; */
 	color: #0079C2;
-	padding: 15px 11px;	
+	padding: 18px 11px;	
 	display: block;
 	font-size: 15px;
 	font-family: Avenir, Helvetica, sans-serif;
