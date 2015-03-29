@@ -16,16 +16,15 @@
 	text-decoration: none;
 	/* color: #4B5265; */
 	color: #0079C2;
-	padding: 20px 11px;	
+	padding: 15px 11px;	
 	display: block;
-	font-size: 13px;
-	font-family: "Open Sans", "Ubuntu Regular", "Segoe UI", Verdana,
-		Helvetica, Sans-Serif;
+	font-size: 15px;
+	font-family: Avenir, Helvetica, sans-serif;
 	
 }
 
 .menu_simple ul li a:hover, .menu_simple ul li .current {
-	color: #020303;
+	color: #5e9e0f;
 	border-left: 7px solid #0079C2;
 }
 

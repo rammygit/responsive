@@ -27,9 +27,8 @@ body {
 	overflow: hidden;
 	/* background: #000000; */
 	padding: 0px 0px 15px 0px;
-	font-family: "Open Sans", "Ubuntu Regular", "Segoe UI", Verdana,
-		Helvetica, Sans-Serif;
-	font-weight: bold;
+	font-family: Avenir, Helvetica, sans-serif;
+	
 	/* opacity:0.1;
   	filter:alpha(opacity=10); For IE8 and earlier */
 }
@@ -64,7 +63,7 @@ body {
     width: 700px;
     padding-top: 30px;
     margin-top:50px;
-    margin-left:50px;
+    margin-left:30px;
 }
 
 
