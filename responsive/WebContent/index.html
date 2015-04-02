@@ -6,7 +6,21 @@
 <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
 <link rel="stylesheet" type="text/css" href="resources/css/layout.css">
 <link rel="stylesheet" type="text/css" href="resources/css/menu.css">
-
+<style>
+.cc-mask {
+  display:inline-block;
+  height:40px;
+  font-size:18px;
+  background:none;
+  color:transparent;
+  text-shadow:0 0 8px #f5f5f5;
+  border:1px solid #fff;
+  padding:2px;
+  outline:none;
+  width:250px;
+  transition:text-shadow .2s, border .2s;
+}
+</style>
 </head>
 <body>
 
@@ -49,7 +63,11 @@
 
 		<div id="mainContent">
 			
-			<div class="edgedDiv">yeah with my div edged!!!</div>
+			<div class="edgedDiv">
+			enter your name
+			<input type='text' class='cc-mask' placeholder='5555 5555 5555 5555' maxlength="16"  />
+			
+			</div>
 			
 		</div>
 	</div>

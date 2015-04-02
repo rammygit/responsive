@@ -11,7 +11,7 @@ body {
 	padding: 0px;
 	height: 100%;
 	/* background-image: url("../images/wood.jpg"); */
-	background-image: url("../images/blue_gradient.jpg");
+	background-image: url("../images/dark_blue.jpg");
 	background-repeat: repeat-x;
 	background-size: cover;
 	/* background: #1e2124;
@@ -59,9 +59,9 @@ body {
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    border: 1px solid #0079C2;
+    border: 1px solid #ffffff;
     height: 500px;
-    width: 700px;
+    width: 900px;
     padding-top: 30px;
     margin-top:70px;
     margin-left:110px;
