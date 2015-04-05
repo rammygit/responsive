@@ -29,5 +29,17 @@
 	border-left: 7px solid #0079C2;
 }
 
+.button {
+width: 9.688rem;
+background-color: #a5e2ea;
+border-color: #a5e2ea;
+text-shadow: none;
+border-style: none;
+border-radius: 4px;
+padding: 1rem 1.5rem;
+color: white;
+font-size: 1.125rem;
+}
+
 
 
